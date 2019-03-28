@@ -1,0 +1,18 @@
+{
+  "id": "confluence",
+  "name": "Confluence",
+  "version": "1.0.0",
+  "description": "Confluence",
+  "main": "index.js",
+  "author": "ThatGuyinIT@Github",
+  "license": "MIT",
+  "repository": "https://github.com/ThatGuyinIT/recipe-franz-confluence/",
+  "config": {
+    "serviceURL": "https://{teamId}.atlassian.net/wiki/",
+    "hasNotificationSound": false,
+    "hasDirectMessages": false,
+    "hasIndirectMessages": false,
+    "hasTeamId": true,
+    "urlInputSuffix": "<team>.atlassian.net/wiki/"
+  }
+}
